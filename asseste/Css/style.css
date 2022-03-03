@@ -1222,3 +1222,11 @@ template {
 [hidden] {
   display: none;
 }
+
+::placeholder {
+  color: #49d6cb;
+}
+
+select:required:invalid {
+  color: #49d6cb;
+}

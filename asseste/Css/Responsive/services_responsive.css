@@ -229,9 +229,9 @@
       }
       
       .services_plan_wrapper .plans ul li {
-        width: 400px;
+        width: 450px;
         text-align: center;
-        margin: 20px;
+        margin: 20px 0;
         padding: 20px;
         -webkit-box-shadow: 0px 0px 15px 5px rgba(126, 126, 126, 0.101961);
                 box-shadow: 0px 0px 15px 5px rgba(126, 126, 126, 0.101961);
@@ -258,7 +258,7 @@
       }
       
       .services_plan_wrapper .plans ul li p {
-        font-size: 8px;
+        font-size: 6px;
         color: #c9c9c9;
         line-height: 1.6;
         width: 85%;
@@ -309,7 +309,7 @@
       .services_plan_wrapper .plans ul li button {
         background-color: #49d6cb;
         color: #fff;
-        font-size: 16px;
+        font-size: 10px;
         border: none;
         border-radius: 10px;
         padding: 10px 30px;
