@@ -1,0 +1,38 @@
+body {
+  background-image: none!important;
+}
+.Hero_section {
+    background-image: url("../images/images_work_line/work_main_bacground.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.70;
+    background-repeat: no-repeat;
+    background-color: #49D6CB;
+    margin-top: -34px;
+  }
+  
+  .Hero_section .hero_section_wrapper {
+    padding: 135px 0;
+    opacity: 1;
+  }
+  
+  .Hero_section .hero_section_wrapper h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+  }
+.content_wrapper h1{
+    color: #217a73;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+.content_wrapper p {
+    color: #8a8a8a;
+    text-align: left;
+    font-size: 21px;
+    line-height: 1.7;
+    width: 90%;
+    margin: 40px auto;
+}
