@@ -336,6 +336,20 @@
 
 }
 @media only screen and (max-width: 570px) {
+    .Hero_section .hero_section_wrapper h1 {
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+      }
+      .Hero_section {
+        background-image: url("../../images/images_work_line/work_main_bacground.png");
+        background-position: center;
+        background-size: cover;
+        opacity: 0.70;
+        background-repeat: no-repeat;
+        background-color: #49D6CB;
+        margin-top: -14px;
+      }
     .work_line_section .work_line_wrapper ul .last_li::before {
         display: none;
         content: "";
@@ -361,7 +375,9 @@
         margin-top: -12%;
         margin-left: 25%;
     }
-
+    .responseive-left-5 {
+        margin-left: -50px;
+    }
     .work_line_section .work_line_wrapper ul .middle_li_3 {
         margin-top: 50px;
     }
