@@ -6,8 +6,6 @@ for(let i = 0; i < 15; i++) {
     new_div.classList.add("hide")
     let title = document.createElement("strong")
     new_img.setAttribute("src", `https://picsum.photos/id/${Math.round(Math.random() * 500)}/447/430`)
-    new_img.style.width = "447px"
-    new_img.style.height = "430px"
     title.textContent = "Business Process Automation"
     new_div.appendChild(title)
     newli.appendChild(new_img)

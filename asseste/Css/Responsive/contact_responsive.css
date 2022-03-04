@@ -6,10 +6,10 @@
         opacity: 0.70;
         background-repeat: no-repeat;
         background-color: #49D6CB;
-        margin-top: -10px;
+        margin-top: 0px;
     }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 620px) {
     .Hero_section {
         background-image: url("../../images/contact_hero_img.png");
         background-position: top 35% center;
@@ -17,15 +17,15 @@
         opacity: 0.70;
         background-repeat: no-repeat;
         background-color: #49D6CB;
-        margin-top: -10px;
+        margin-top: 0px;
     }
     .contact_information_wrapper ul li {
         border-radius: 10px;
-        width: 224px;
+        width: 304px;
         margin: 20px 0;
         -webkit-box-shadow: 0px 0px 10px 3px rgba(126, 126, 126, 0.101961);
                 box-shadow: 0px 0px 10px 3px rgba(126, 126, 126, 0.101961);
         position: relative;
-        margin-left: -60px;
-      }
+        margin-left: -40px;
+    }
 }

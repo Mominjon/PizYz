@@ -5,7 +5,7 @@
         background-size: 2000px;
         background-repeat: no-repeat;
         background-color: #49D6CB;
-        margin-top: -34px;
+        margin-top: 0px;
     }
 
     .Hero_section .hero_section_wrapper {
@@ -31,10 +31,12 @@
         width: 407px;
         height: 400px;
     }
+
     .portafilo_father li img {
-        width: 407px!important;
-        height: 400px!important;
+        width: 407px !important;
+        height: 400px !important;
     }
+
     .portafilo_father li:hover div {
         display: block !important;
     }
@@ -66,6 +68,7 @@
         }
     }
 }
+
 @media only screen and (max-width: 1310px) {
     .Hero_section {
         background-image: url("../../images/portafilo_hero_img.png");
@@ -73,7 +76,7 @@
         background-size: 2000px;
         background-repeat: no-repeat;
         background-color: #49D6CB;
-        margin-top: -34px;
+        margin-top: 0px;
     }
 
     .Hero_section .hero_section_wrapper {
@@ -91,6 +94,7 @@
         margin-top: 100px;
         display: flex;
         flex-wrap: wrap;
+        margin-left: -15px;
     }
 
     .portafilo_father li {
@@ -99,10 +103,12 @@
         width: 340px;
         height: 340px;
     }
+
     .portafilo_father li img {
-        width: 100%!important;
-        height: 100%!important;
+        width: 100% !important;
+        height: 100% !important;
     }
+
     .portafilo_father li:hover div {
         display: block !important;
     }
@@ -134,6 +140,7 @@
         }
     }
 }
+
 @media only screen and (max-width: 1110px) {
     .Hero_section {
         background-image: url("../../images/portafilo_hero_img.png");
@@ -141,7 +148,7 @@
         background-size: 2000px;
         background-repeat: no-repeat;
         background-color: #49D6CB;
-        margin-top: -34px;
+        margin-top: 0px;
     }
 
     .Hero_section .hero_section_wrapper {
@@ -167,10 +174,12 @@
         width: 280px;
         height: 280px;
     }
+
     .portafilo_father li img {
-        width: 100%!important;
-        height: 100%!important;
+        width: 100% !important;
+        height: 100% !important;
     }
+
     .portafilo_father li:hover div {
         display: block !important;
     }
@@ -202,6 +211,7 @@
         }
     }
 }
+
 @media only screen and (max-width: 900px) {
     .Hero_section {
         background-image: url("../../images/portafilo_hero_img.png");
@@ -209,7 +219,7 @@
         background-size: 2000px;
         background-repeat: no-repeat;
         background-color: #49D6CB;
-        margin-top: -34px;
+        margin-top: 0px;
     }
 
     .Hero_section .hero_section_wrapper {
@@ -226,6 +236,7 @@
     .portafilo_father {
         margin-top: 100px;
         display: flex;
+        margin-left: 10px;
         flex-wrap: wrap;
     }
 
@@ -235,10 +246,12 @@
         width: 220px;
         height: 220px;
     }
+
     .portafilo_father li img {
-        width: 100%!important;
-        height: 100%!important;
+        width: 100% !important;
+        height: 100% !important;
     }
+
     .portafilo_father li:hover div {
         display: block !important;
     }
@@ -270,6 +283,7 @@
         }
     }
 }
+
 @media only screen and (max-width: 800px) {
     .Hero_section {
         background-image: url("../../images/portafilo_hero_img.png");
@@ -277,7 +291,7 @@
         background-size: 2000px;
         background-repeat: no-repeat;
         background-color: #49D6CB;
-        margin-top: -4px;
+        margin-top: 0px;
     }
 
     .Hero_section .hero_section_wrapper {
@@ -303,10 +317,83 @@
         width: 280px;
         height: 280px;
     }
+
     .portafilo_father li img {
-        width: 100%!important;
-        height: 100%!important;
+        width: 100% !important;
+        height: 100% !important;
     }
+
+    .portafilo_father li:hover div {
+        display: block !important;
+    }
+
+    .portafilo_father li div {
+        animation: hover_effect 0.5s;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.64);
+    }
+
+    .portafilo_father li div strong {
+        color: #fff;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 10%;
+        margin-top: 45%;
+    }
+
+    @keyframes hover_effect {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+}
+@media only screen and (max-width: 700px) {
+    .Hero_section {
+        background-image: url("../../images/portafilo_hero_img.png");
+        background-position: top 20% center;
+        background-size: 2000px;
+        background-repeat: no-repeat;
+        background-color: #49D6CB;
+        margin-top: 0px;
+    }
+
+    .Hero_section .hero_section_wrapper {
+        padding: 120px 0;
+        opacity: 1;
+    }
+
+    .Hero_section .hero_section_wrapper h1 {
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .portafilo_father {
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5%;
+    }
+
+    .portafilo_father li {
+        margin: 5px;
+        position: relative;
+        width: 220px;
+        height: 220px;
+    }
+
+    .portafilo_father li img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
     .portafilo_father li:hover div {
         display: block !important;
     }
@@ -345,7 +432,7 @@
         background-size: 2000px;
         background-repeat: no-repeat;
         background-color: #49D6CB;
-        margin-top: -4px;
+        margin-top: 0px;
     }
 
     .Hero_section .hero_section_wrapper {
@@ -364,6 +451,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-left: -8%;
     }
 
     .portafilo_father li {
@@ -373,10 +461,12 @@
         height: 80%;
         margin: 0 auto;
     }
+
     .portafilo_father li img {
-        width: 100%!important;
-        height: 100%!important;
+        width: 100% !important;
+        height: 100% !important;
     }
+
     .portafilo_father li:hover div {
         display: block !important;
     }

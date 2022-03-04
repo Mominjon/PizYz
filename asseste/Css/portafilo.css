@@ -1,25 +1,28 @@
 body {
-    background-image: none!important;
-  }
+    background-image: none !important;
+}
+
 .Hero_section {
     background-image: url("../images/portafilo_hero_img.png");
     background-position: top 20% center;
     background-size: 2000px;
     background-repeat: no-repeat;
     background-color: #49D6CB;
-    margin-top: -34px;
-  }
-  
-  .Hero_section .hero_section_wrapper {
+    margin-top: 0px;
+
+}
+
+.Hero_section .hero_section_wrapper {
     padding: 120px 0;
     opacity: 1;
-  }
-  
-  .Hero_section .hero_section_wrapper h1 {
+}
+
+.Hero_section .hero_section_wrapper h1 {
     color: #fff;
     font-size: 40px;
     text-align: center;
-  }
+}
+
 .portafilo_father {
     margin-top: 100px;
     display: flex;
@@ -30,10 +33,12 @@ body {
     margin: 5px;
     position: relative;
 }
+
 .portafilo_father li:hover div {
-    display: block!important;
+    display: block !important;
 }
-.portafilo_father li div{
+
+.portafilo_father li div {
     animation: hover_effect 0.5s;
     position: absolute;
     top: 0;
@@ -41,6 +46,7 @@ body {
     height: 430px;
     background-color: rgba(0, 0, 0, 0.64);
 }
+
 .portafilo_father li div strong {
     color: #fff;
     display: inline-block;
@@ -48,10 +54,12 @@ body {
     margin-left: 10%;
     margin-top: 45%;
 }
+
 @keyframes hover_effect {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }

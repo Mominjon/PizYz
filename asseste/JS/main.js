@@ -1,18 +1,21 @@
-const fathers = document.querySelectorAll(".plans")
+const fathers = [...document.querySelectorAll(".plans")]
+const allUls = [...document.querySelectorAll('ul')];
 
+allUls.forEach((el) => {
+    el.addEventListener('click', (e) => {
+        e.stopPropagation();
+    });
+});
 
-for(let i = 0; i < fathers.length; i++) {
-    // const button = 
-    let text = fathers[i].childNodes[3]
-    let button = fathers[i].childNodes[1]
-    button.addEventListener("click", (e) => {
-        let test_close = text.classList.contains("hide")
-        if(test_close == true){
-            text.classList.remove("hide")
-            text.classList.add("show")
-        }else {
-            text.classList.add("hide")
-            text.classList.remove("show")
+fathers.forEach((el) => {
+    el.addEventListener('click', (e) => {
+        const ul = e.currentTarget.querySelector('ul');
+        if (ul.classList.contains('show')) {
+            ul.classList.add('hide');
+            ul.classList.remove('show')
+        } else {
+            ul.classList.add('show');
+            ul.classList.remove('hide');
         }
     })
-}
+});
