@@ -1,0 +1,87 @@
+body {
+  background-image: none!important;
+}
+.Hero_section {
+  background-image: url("../images/images_work_line/work_main_bacground.png");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.70;
+  background-repeat: no-repeat;
+  background-color: #49D6CB;
+  margin-top: -34px;
+}
+
+.Hero_section .hero_section_wrapper {
+  padding: 135px 0;
+  opacity: 1;
+}
+
+.Hero_section .hero_section_wrapper h1 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.work_line_section .work_line_wrapper ul .first_li_work {
+  margin-top: 100px;
+}
+
+.work_line_section .work_line_wrapper ul .last_li::before {
+  content: url("../images/Group 1583.png");
+  position: absolute;
+  margin-top: -14%;
+  margin-left: 27%;
+}
+
+.work_line_section .work_line_wrapper ul .middle_li_2::before {
+  content: url("../images/Group 1583.png");
+  position: absolute;
+  margin-top: -14%;
+  margin-left: 27%;
+}
+
+.work_line_section .work_line_wrapper ul .middle_li_3 {
+  margin-top: 270px;
+}
+
+.work_line_section .work_line_wrapper ul .middle_li_3::before {
+  content: url("../images/images_work_line/Group 1586.png");
+  position: absolute;
+  margin-top: -22%;
+  margin-left: 7%;
+}
+
+.work_line_section .work_line_wrapper ul .middle_li_4::before {
+  content: url("../images/images_work_line/Group 1587.png");
+  position: absolute;
+  margin-top: -14%;
+  margin-left: 7%;
+}
+
+.work_line_section .work_line_wrapper ul .middle_li_5 {
+  margin-top: 250px;
+}
+
+.work_line_section .work_line_wrapper ul .middle_li_5::before {
+  content: url("../images/images_work_line/Group 1589.png");
+  position: absolute;
+  margin-top: -16%;
+  margin-left: 5%;
+}
+
+.work_line_section .work_line_wrapper ul .last_li_0::before {
+  content: url("../images/images_work_line/Group 1588.png");
+  position: absolute;
+  margin-top: -16%;
+  margin-left: -15%;
+}
+
+.work_line_section .work_line_wrapper ul .last_li_0 img {
+  margin-top: 80px;
+  width: 300px;
+}
+
+.work_line_section .work_line_wrapper ul .last_li_0 div {
+  margin-top: 50;
+}
+/*# sourceMappingURL=work_line.css.map */

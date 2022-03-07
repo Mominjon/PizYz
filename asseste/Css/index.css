@@ -1,0 +1,6 @@
+body {
+    background-image: url("../images/img_bacground_4.png"), url("../images/img_bacground_1.png");
+    background-position: top left, top right;
+    background-size: 579px, 1042px;
+    background-repeat: no-repeat;
+}
